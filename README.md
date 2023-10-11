@@ -1,6 +1,6 @@
-# codebuild-cbe-k8s
+# codebuild-cbe-iac
 
-Custom build environment for AWS CodeBuild with Java, Maven, Docker, kubectl, helm packaged as Docker image.
+Docker image providing a custom build environment for AWS CodeBuild with Terraform, Terragrunt, Packer, kubectl and helm.
 
 ## Release Information
 
