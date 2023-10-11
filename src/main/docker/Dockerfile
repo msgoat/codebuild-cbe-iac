@@ -3,9 +3,9 @@ FROM ubuntu:23.04 AS tool
 COPY *.crt /usr/local/share/ca-certificates/
 
 RUN echo "Update packages, install required packages and update trust store" && \
-    apt-get update && \
-    apt-get install --yes --no-install-recommends curl unzip ca-certificates && \
-    apt-get clean && \
+    apt update && \
+    apt install --yes --no-install-recommends curl unzip ca-certificates && \
+    apt clean && \
     update-ca-certificates
 
 FROM tool AS terraform
@@ -88,12 +88,13 @@ COPY --from=helm /usr/local/bin/helm /usr/local/bin/helm
 COPY --from=awscli /tmp/aws/dist /opt/aws-cli
 
 RUN echo "Update system packages" && \
-    apt-get update && \
+    apt update && \
+    apt upgrade --yes && \
     echo "Install missing tools" && \
-    apt-get install --yes groff && \
+    apt install --yes groff && \
     echo "Clean up after installation" && \
-    apt-get clean && \
-    apt-get autoremove --purge && \
+    apt clean && \
+    apt autoremove --purge && \
     rm -rf /var/lib/apt/lists/* && \
     echo "Install Terraform" && \
     terraform --version && \
