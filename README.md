@@ -8,5 +8,5 @@ A changelog can be found in [changelog.md](changelog.md).
 
 ## Status
 
-![Build status](https://codebuild.eu-west-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSXhEZjR4ckZxQnpsWWVIbXZNbWhob3JNUStVR2NYUFR4bEdBYW5zNmVTbjhoTGI4aWowK3dDZmxFcVdlcS9WNDgyNGU3dlEwS1BrZVljb2kzbWJtOTdvPSIsIml2UGFyYW1ldGVyU3BlYyI6Ik9pU0RZUzR0ZWJpdnkvRWciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
+![Build status](https://codebuild.eu-west-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSm5vTFl6cTJNdzlOelBxNXI4S2l1em9GckxjNHRRODJ2b0NCcitkcnJGZXNuM3E4a2F2RUVrRGwzZmxCYm9EWjZ6eHB0UkJyRmF0Yk5vUkxxTWlOMzgwPSIsIml2UGFyYW1ldGVyU3BlYyI6InRSdk1TSG5uSisxTncwTmIiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
